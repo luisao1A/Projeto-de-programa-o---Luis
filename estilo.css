@@ -28,8 +28,26 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(193, 87, 12);
 }
 
 main {
     flex: 1;
+}
+
+.cabecalho-link{
+color: rgb(33, 172, 177);
+text-decoration: none;
+
+}
+
+h1{
+  color: rgb(191, 116, 25);
+  font-size: 18px;
+}
+
+footer {
+  background-color: rgb(34, 168, 168);
+  padding: 15px 25px;
+  color: rgb(74, 117, 74);
 }
